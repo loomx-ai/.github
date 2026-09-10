@@ -24,6 +24,4 @@ See the [installation guide](https://loomx.ai/steward/docs/latest/en/installatio
 
 ---
 
-LoomX 致力于让云基础设施更清晰、更可控。通过 [Steward](https://github.com/loomx-ai/steward) 统一查看多云资源、理解依赖关系，并在清理前审核影响。查看[中文文档](https://loomx.ai/steward/docs/latest/zh/)或[在线使用](https://steward.console.loomx.ai)。
-
 [Website](https://loomx.ai) · [About LoomX](https://loomx.ai/about/)
