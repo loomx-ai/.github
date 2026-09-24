@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">LoomX</title>
+  <desc id="desc">Open-source tools for cloud visibility and control</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101726"/>
+      <stop offset=".55" stop-color="#18254a"/>
+      <stop offset="1" stop-color="#251b4b"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0" y1="1" x2="1" y2="0">
+      <stop offset=".2" stop-color="#2d7bfe"/>
+      <stop offset=".5" stop-color="#7facf7"/>
+      <stop offset=".8" stop-color="#9b51e0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#61adff"/>
+      <stop offset="1" stop-color="#ab80f4"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#546cdb" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#546cdb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b9c7ff" stroke-opacity=".065"/>
+    </pattern>
+    <mask id="mark">
+      <g transform="rotate(45 250 250)" fill="#fff">
+        <rect x="154" y="110" width="32" height="280" rx="16"/>
+        <rect x="234" y="110" width="32" height="280" rx="16"/>
+        <rect x="314" y="110" width="32" height="280" rx="16"/>
+        <rect x="110" y="154" width="280" height="32" rx="16"/>
+        <rect x="110" y="234" width="280" height="32" rx="16"/>
+        <rect x="110" y="314" width="280" height="32" rx="16"/>
+      </g>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <ellipse cx="980" cy="140" rx="360" ry="280" fill="url(#glow)"/>
+
+  <!-- A quiet network motif gives the banner depth without competing with the wordmark. -->
+  <g fill="none" stroke="#a8b6ef" stroke-opacity=".17" stroke-width="1.5">
+    <path d="M804 63 908 106 1017 58 1122 113M908 106 846 214 1002 244 1122 113M908 106 1002 244M1017 58 1002 244M846 214 732 260M1122 113 1175 247 1002 244"/>
+  </g>
+  <g fill="#9fb6ff" opacity=".55">
+    <circle cx="804" cy="63" r="4"/><circle cx="908" cy="106" r="5"/>
+    <circle cx="1017" cy="58" r="4"/><circle cx="1122" cy="113" r="4"/>
+    <circle cx="846" cy="214" r="4"/><circle cx="1002" cy="244" r="5"/>
+    <circle cx="732" cy="260" r="3"/><circle cx="1175" cy="247" r="3"/>
+  </g>
+  <circle cx="908" cy="106" r="16" fill="none" stroke="#8bb4ff" stroke-opacity=".18"/>
+  <circle cx="1002" cy="244" r="20" fill="none" stroke="#b58df9" stroke-opacity=".18"/>
+
+  <rect x="60" y="77" width="166" height="166" rx="36" fill="#fff" fill-opacity=".055" stroke="#ccd5ff" stroke-opacity=".18"/>
+  <g transform="translate(53 70) scale(.36)">
+    <rect width="500" height="500" fill="url(#logo)" mask="url(#mark)"/>
+  </g>
+
+  <text x="266" y="151" fill="#f7f8ff" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" letter-spacing="-3">LoomX</text>
+  <rect x="268" y="181" width="68" height="4" rx="2" fill="url(#accent)"/>
+  <text x="266" y="222" fill="#c8d4ef" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing=".1">Open-source tools for cloud visibility and control</text>
+</svg>
